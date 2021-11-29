@@ -1,14 +1,15 @@
 import React from "react";
-import Todo from "./Todo.js"
+import Todo from "./Todo.js";
 
-
-function TodoList({todos, setTodos}) {
+function TodoList({ todos, setTodos, filteredTodos }) {
   return (
     <div className="todo-container">
       <ul className="todo-list">
-          {todos.map((todo) => {
-              return <Todo key={todo.id} todo={todo} setTodos={setTodos} todos={todos}/>
-          })}
+        {filteredTodos.map((todo) => {
+          return (
+            <Todo key={todo.id} todo={todo} setTodos={setTodos} todos={todos} />
+          );
+        })}
       </ul>
     </div>
   );
