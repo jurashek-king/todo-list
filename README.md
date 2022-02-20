@@ -4,7 +4,7 @@ Simple application built to practice basics of React.
 
 ## Screenshot
 
-![Todo App overview](assets/Todo_app_overview_small.png)
+![Todo App overview](assets/ToDo_app_overview_small.png)
 
 ## Description
 
